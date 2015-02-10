@@ -1,0 +1,45 @@
+###########################
+# xbindkeys configuration #
+###########################
+# If you edit this file, do not forget to uncomment any lines
+# that you change.
+# The pound(#) symbol may be used anywhere for comments.
+#
+# The format of a command line is:
+#    "command to start"
+#       associated key
+#
+# List of modifier:
+#   Release, Control, Shift, Mod1 (Alt), Mod2 (NumLock),
+#   Mod3 (CapsLock), Mod4, Mod5 (Scroll).
+#
+#
+# The release modifier is not a standard X modifier, but you can
+# use it if you want to catch release events instead of press events
+#
+# By defaults, xbindkeys does not pay attention with the modifiers
+# NumLock, CapsLock and ScrollLock.
+# Uncomment the lines above if you want to pay attention to them.
+
+#keystate_numlock = enable
+#keystate_capslock = enable
+#keystate_scrolllock= enable
+
+## Open Apps
+##
+ "x-terminal-emulator"
+ mod4 + space
+
+ "xterm"
+ mod4 + t
+
+ "x-www-browser"
+ mod4 + b
+
+## Do Things 
+##
+ "xkill"
+ mod4 + q
+
+ "scrot"
+ mod4+Shift + 3
